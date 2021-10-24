@@ -14,13 +14,103 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.logo {
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  z-index: 3;
+}
+.logo__place_header {
+  top: 30px;
+  left: 64px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  align-self: center;
+  z-index: 2;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.header__subtitle_link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color:  #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
 }
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+}
+  .two-columns__brief{
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+
+}
+.two-columns__main-text {
+  min-width: 784px;
+  width: 80%;
+}
+.two-columns__paragraph{
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__paragraph_margin-30 {
+  margin-bottom: 30px;
+}
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
