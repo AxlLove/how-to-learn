@@ -3,8 +3,8 @@
 
 <div align="center">
 
-<a href="https://axllove.github.io/how-to-learn/"><img src="./" alt="Научиться учиться"></a>
-<div align="center">**https://axllove.github.io/how-to-learn/**</div>
+<a href="https://axllove.github.io/how-to-learn/"><img src="https://github.com/AxlLove/Axllove/blob/master/src/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG" alt="Научиться учиться"></a>
+<div align="center">https://axllove.github.io/how-to-learn/</div>
 </div>
 
 Данная работа реализована, для подтверждения и закрепления полученных знаний, в ходе учебного процесса на [Яндекс.Практикуме](https://practicum.yandex.ru/ "Сервис онлайн-образования от Яндекса"). В ней я практиковался в верстке и оформлении элементов различной сложности. Также, создал файловую структуру и осуществил разнесение всех стилей по методологии [БЭМ](https://ru.bem.info/ "Методология созданная в Яндексе для удобной разработки сайтов").
